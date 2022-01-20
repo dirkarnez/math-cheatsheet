@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css"
+    integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js"
+    integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY"
+    crossorigin="anonymous"></script>
 </head>
 <body>
+  <div id="container"></div>
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      renderMathInElement(document.getElementById("container"))
+    });
 
-<h1>it works</h1>
-
+    function renderMathInElement(element) {
+      katex.render("% \\f is defined as #1f(#2) using the macro\n\\f\\relax{x} = \\int_{-\\infty}^\\infty\n    \\f\\hat\\xi\\,e^{2 \\pi i \\xi x}\n    \\,d\\xi", element, { "displayMode": true, "leqno": false, "fleqn": false, "throwOnError": true, "errorColor": "#cc0000", "strict": "warn", "output": "htmlAndMathml", "trust": false, "macros": { "\\f": "#1f(#2)" } })
+    }
+  </script>
 </body>
 </html>
