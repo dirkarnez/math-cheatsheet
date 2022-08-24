@@ -1,0 +1,162 @@
+[
+    {
+        "formula": "y=x^{2}",
+        "url": "https://www.desmos.com/calculator/eyvbomruki"
+    },
+    {
+        "formula": "y=x^{3}",
+        "url": "https://www.desmos.com/calculator/11b1bu1imb"
+    },
+    {
+        "formula": "y=2^{x}",
+        "url": "https://www.desmos.com/calculator/m8rztl4hfc"
+    },
+    {
+        "formula": "y=3^{x}",
+        "url": "https://www.desmos.com/calculator/xsvsoxhcrb"
+    },
+    {
+        "formula": "y=\\sqrt{x}",
+        "url": "https://www.desmos.com/calculator/9lndoo5gqk"
+    },
+    {
+        "formula": "y=\\sqrt[3]{x}",
+        "url": "https://www.desmos.com/calculator/pvtxppxvh6"
+    },
+    {
+        "formula": "y=\\frac{1}{x}",
+        "url": "https://www.desmos.com/calculator/7gnoia9gou"
+    },
+    {
+        "formula": "y=\\frac{1}{x^{2}}",
+        "url": "https://www.desmos.com/calculator/qzz0kamfal"
+    },
+    {
+        "formula": "y=e^{x}",
+        "url": "https://www.desmos.com/calculator/iaqg7qlice"
+    },
+    {
+        "formula": "y=\\ln x",
+        "url": "https://www.desmos.com/calculator/ar8ckitiv7"
+    },
+    {
+        "formula": "y=\\log x",
+        "url": "https://www.desmos.com/calculator/tssyv7t2uc"
+    },
+    {
+        "formula": "y=\\frac{1}{\\log x}",
+        "url": "https://www.desmos.com/calculator/tfpkupcm7g"
+    },
+    {
+        "formula": "y=\\sin\\left(x\\right)",
+        "url": "https://www.desmos.com/calculator/iiqz6ennvc"
+    },
+    {
+        "formula": "y=\\cos\\left(x\\right)",
+        "url": "https://www.desmos.com/calculator/9soujrbsmy"
+    },
+    {
+        "formula": "y=\\tan\\left(x\\right)",
+        "url": "https://www.desmos.com/calculator/zf0fxx2qnf"
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    },
+    {
+        "formula": "",
+        "url": ""
+    }
+]
