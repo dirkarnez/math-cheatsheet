@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <style>
+        body {
+            background-color: #eee;
+        }
+
         .iframe-container {
             overflow: hidden;
             padding-top: 56.25%;
@@ -23,10 +27,37 @@
             bottom: 50;
             width: 100%;
         }
+
+        .inner {
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-flow: row wrap;
+            flex-flow: row wrap;
+            -webkit-justify-content: flex-start;
+            justify-content: flex-start;
+            -webkit-align-items: stretch;
+            align-items: stretch;
+            padding-right: 0;
+        }
+
+        .my-card {
+            width: 296px;
+            margin: 0 24px 24px 0;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            background-color: #fff;
+            border-radius: 2px;
+            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12);
+            text-decoration: none;
+            overflow: hidden;
+            transition: box-shadow .1s ease;
+            outline: 0;
+        }
     </style>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async
-            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <!-- <script>
         window.addEventListener('DOMContentLoaded', (event) => {
             renderMathInElement(document.getElementById("plot-container"))
@@ -55,20 +86,18 @@
                 </p>
             </div>
         </div>
-        <div class="row">
-            <div class="col iframe-container">
-                <iframe src="https://www.desmos.com/calculator/waoewjzvuu?embed" style="border: 1px solid #ccc"
-                    frameborder=0></iframe>
-                <!-- <button onclick="alert()">dfs</button> -->
-            </div>
-            <div class="col">
-
-            </div>
-            <div class="col">
+        <div class="row d-flex flex-column bd-highlight mb-3">
+            <div class="d-flex justify-content-start inner">
+                <div class="p-2 bd-highlight my-card">
+                    <iframe src="https://www.desmos.com/calculator/waoewjzvuu?embed" style="border: 1px solid #ccc"
+                        frameborder=0></iframe>
+                    <button onclick="alert()">dfs</button>
+                </div>
+                <div class="p-2 bd-highlight my-card">Flex item 2</div>
+                <div class="p-2 bd-highlight my-card">Flex item 3</div>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
