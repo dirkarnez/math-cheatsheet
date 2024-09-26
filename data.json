@@ -1,162 +1,89 @@
 [
     {
+        "type": "plot",
         "formula": "y=x^{2}",
         "url": "https://www.desmos.com/calculator/eyvbomruki"
     },
     {
+        "type": "plot",
         "formula": "y=x^{3}",
         "url": "https://www.desmos.com/calculator/11b1bu1imb"
     },
     {
+        "type": "plot",
         "formula": "y=2^{x}",
         "url": "https://www.desmos.com/calculator/m8rztl4hfc"
     },
     {
+        "type": "plot",
         "formula": "y=3^{x}",
         "url": "https://www.desmos.com/calculator/xsvsoxhcrb"
     },
     {
+        "type": "plot",
         "formula": "y=\\sqrt{x}",
         "url": "https://www.desmos.com/calculator/9lndoo5gqk"
     },
     {
+        "type": "plot",
         "formula": "y=\\sqrt[3]{x}",
         "url": "https://www.desmos.com/calculator/pvtxppxvh6"
     },
     {
+        "type": "plot",
         "formula": "y=\\frac{1}{x}",
         "url": "https://www.desmos.com/calculator/7gnoia9gou"
     },
     {
+        "type": "plot",
         "formula": "y=\\frac{1}{x^{2}}",
         "url": "https://www.desmos.com/calculator/qzz0kamfal"
     },
     {
+        "type": "plot",
         "formula": "y=e^{x}",
         "url": "https://www.desmos.com/calculator/iaqg7qlice"
     },
     {
+        "type": "plot",
         "formula": "y=\\ln x",
         "url": "https://www.desmos.com/calculator/ar8ckitiv7"
     },
     {
+        "type": "plot",
         "formula": "y=\\log x",
         "url": "https://www.desmos.com/calculator/tssyv7t2uc"
     },
     {
+        "type": "plot",
         "formula": "y=\\frac{1}{\\log x}",
         "url": "https://www.desmos.com/calculator/tfpkupcm7g"
     },
     {
+        "type": "plot",
         "formula": "y=\\sin\\left(x\\right)",
         "url": "https://www.desmos.com/calculator/iiqz6ennvc"
     },
     {
+        "type": "plot",
         "formula": "y=\\cos\\left(x\\right)",
         "url": "https://www.desmos.com/calculator/9soujrbsmy"
     },
     {
+        "type": "plot",
         "formula": "y=\\tan\\left(x\\right)",
         "url": "https://www.desmos.com/calculator/zf0fxx2qnf"
     },
     {
-        "formula": "",
-        "url": ""
+        "type": "image",
+        "src": "IMG-20220930-WA0001.jpg"
     },
     {
-        "formula": "",
-        "url": ""
+        "type": "image",
+        "src": "circle-unit-radians.svg"
     },
     {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
-    },
-    {
-        "formula": "",
-        "url": ""
+        "type": "image",
+        "src": "Unit-circle.png"
     }
 ]

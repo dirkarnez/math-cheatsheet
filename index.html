@@ -52,13 +52,13 @@
 
     <script type="text/babel">
         function Application() {
-            const [fomulae, setFormulae] = React.useState([]);
+            const [data, setData] = React.useState([]);
 
             React.useEffect(() => {
-                fetch('./fomulae.json', { cache: "no-cache" })
+                fetch('./data.json', { cache: "no-cache" })
                     .then(response => response.json())
                     .then(data => {
-                        setFormulae(data);
+                        setData(data);
                     })
                     .catch(e => {
                         alert('Download error: ' + e.message);
@@ -67,14 +67,14 @@
 
             React.useEffect(() => {
                 MathJax.typeset();
-            }, [fomulae]);
+            }, [data]);
 
             return (
                 <React.Fragment>
                     <div className="row">
                         {
-                            Array.isArray(fomulae) && 
-                                fomulae.filter(current => !!current.url && !!current.formula)
+                            Array.isArray(data) && 
+                                data.filter(datum => !!datum.type)
                                 .reduce((prev, current, currentIndex) => {
                                     if (currentIndex % 2 == 0) { // 2 col per row
                                         return [...prev, [current]];
@@ -87,14 +87,25 @@
                                     arrayPerRow.map(ele => (
                                         <div className="col-md-6">
                                             <div className="p-2 d-flex flex-column my-card">
-                                                <iframe
-                                                    src={`${ele.url}?embed`}
-                                                    style={{ border: "1px solid #ccc" }}
-                                                    frameBorder="0" height="400px"
-                                                />
-                                                <p onClick={() => {
-                                                    window.open(ele.url, "_target");
-                                                }}>$${ele.formula}$$</p>
+                                                {
+                                                    ele.type == "plot" && (
+                                                        <React.Fragment>
+                                                            <iframe
+                                                                src={`${ele.url}?embed`}
+                                                                style={{ border: "1px solid #ccc" }}
+                                                                frameBorder="0" height="400px"
+                                                            />
+                                                            <p onClick={() => {
+                                                                window.open(ele.url, "_target");
+                                                            }}>$${ele.formula}$$</p>
+                                                        </React.Fragment>
+                                                    )
+                                                }
+                                                {
+                                                    ele.type == "image" && (
+                                                        <img src={ele.src}/>
+                                                    )
+                                                }
                                             </div>
                                         </div>
                                     ))
